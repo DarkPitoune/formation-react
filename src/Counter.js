@@ -1,13 +1,12 @@
 import { useState } from "react";
 
-const Counter = () => {
+const Counter = (props) => {
     const [count, setCount] = useState(0);
-    console.log({count});
-    document.title = "La page n°"+toString({count});
+    console.log(props);
     return (
-        <div class="card" style={{width:"30em", margin: '0 auto'}}>
+        <div class="card" style={{width:"auto", margin: '2em'}}>
             <div class="card-header">
-                Par exemple, on va voir les boutons
+                {props.title}
             </div>
             <button
                 type="button"
@@ -17,7 +16,7 @@ const Counter = () => {
             >
                 Ce bouton incrémente
             </button>
-            <p style={{marginBottom: "1em"}}>Là genre ça vaut {count}</p>
+            <p style={{margin: "1em auto"}}>Là genre ça vaut {count}</p>
         </div>
     )
 };
