@@ -5,7 +5,7 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App log='coucou la zone'/>
   </React.StrictMode>,
   document.getElementById('root')
 );

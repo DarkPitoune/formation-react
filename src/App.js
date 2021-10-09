@@ -1,5 +1,8 @@
 import './App.css';
+
 const App = () => {
+/*ou const App = function() {*/
+  console.log('yo');
   return (
     <div>
       <div className="App">
@@ -9,6 +12,6 @@ const App = () => {
       </div>
     </div>
   );
-}
+};
 
 export default App;
