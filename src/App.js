@@ -1,5 +1,6 @@
 import './App.css';
 import { Counter } from './Counter';
+import Grid from './Grid.js';
 
 const App = () => {
   const compteurs = []
@@ -13,7 +14,9 @@ const App = () => {
             <h1>Bienvenue sur notre super site !</h1>
           </div>
       </div>
-      {compteurs}
+      <Grid>
+        {compteurs}
+      </Grid>
     </div>
   );
 }
