@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.titre {
+  background-color : lightblue;
+  border-radius: 1em;
+  padding: 2em;
+  margin: 1em;
+}

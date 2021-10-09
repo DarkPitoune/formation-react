@@ -10,11 +10,7 @@ const App = () => {
   return (
     <div>
       <div className="App">
-          <div style={{
-              background:   'lightblue',
-              borderRadius: '1em',
-              padding:      '2em',
-              margin:       '1em'}}>
+          <div className="titre">
             <h1>Bienvenue sur notre super site !</h1>
           </div>
       </div>
