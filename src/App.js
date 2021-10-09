@@ -1,6 +1,6 @@
 import './App.css';
 import { Counter } from './Counter';
-import { default as Grid } from './Grid.js';
+import Grid from './Grid.js';
 
 const App = () => {
   const compteurs = []
