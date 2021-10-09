@@ -9,7 +9,7 @@ const App = () => {
             <h1>Bienvenue sur notre super site !</h1>
           </div>
       </div>
-      <Counter />
+      <Counter title="Un compteur : insane"/>
     </div>
   );
 }
