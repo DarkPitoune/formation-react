@@ -6,9 +6,9 @@ Ce code est celui que j'ai utilisé pour faire la formation aux bases de React l
 
 Après avoir cloné ce repo (cf le bouton du gitlab qui vous explique comment faire), executez les commandes suivantes :
 ```
-*cd formation-react-pitoune
-*git checkout step1
-*yarn start
+cd formation-react-pitoune
+git checkout step1
+yarn start
 ```
 Vous vous trouvez maintenant dans la version la plus simple d'un site en React. Vous pouvez ensuite vous déplacer de branche en branche de ```step1``` à ```step4``` puis ```master``` pour découvrir les différents aspects de React un par un.
 Il est conseillé de suivre la vidéo en parallèle pour comprendre les différentes étapes de la construction du site.
